@@ -17,5 +17,5 @@ EXPOSE 5000
 ENV FLASK_APP=app
 ENV FLASK_ENV=production
 
-# Run app.py when the container launches
+# Run __init__.py when the container launches
 CMD ["flask", "run", "--host", "0.0.0.0"]
