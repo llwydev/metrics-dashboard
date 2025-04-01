@@ -1,4 +1,5 @@
-flask==2.0.1
+Flask==2.0.1
 prometheus-client==0.11.0
 psutil==5.8.0
+prometheus-flask-exporter==0.18.3
 gunicorn==20.1.0

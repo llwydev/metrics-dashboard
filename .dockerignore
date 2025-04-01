@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+*.env
+
+# Virtual environment
+venv/
+*.venv/
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Compiled files
+*.so
+
+# Node modules (if applicable)
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Git files
+.git/
+.gitignore

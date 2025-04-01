@@ -2,7 +2,7 @@
 
 This project is a **Resource Health Checker Dashboard** built using **Flask**, **Prometheus**, and **Grafana**.
 It is designed to monitor and visualize the health of various system resources e.g CPU, RAM and Disk Usage.
- 
+
 The application is containerized and deployable using **Docker Compose**.
 
 ## Features
@@ -49,10 +49,10 @@ docker-compose down
 
 ```
 metrics-dashboard/
-├── app/                # Flask application code
-├── docker-compose.yml  # Docker Compose configuration
-├── prometheus.yml      # Prometheus configuration
-└── README.md           # Project documentation
+├── app/                # Project Code
+├── docker-compose.yml  # Docker Compose Configuration
+├── prometheus.yml      # Prometheus Configuration
+└── README.md           # Project Documentation
 ```
 
 ## Configuration
