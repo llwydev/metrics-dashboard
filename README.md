@@ -1,6 +1,6 @@
-# Resource Health Monitoring Flask App
+# Container Resource Health Checker
 
-This project is a **Resource Health Checker Dashboard** built using **Flask**, **Prometheus**, and **Grafana**.
+This project is a **Simple Observability Container Resource Health Checker** built using **Flask**, **Prometheus**, and **Grafana**.
 It is designed to monitor and visualize the health of various system resources e.g CPU, RAM and Disk Usage.
 
 The application is containerized and deployable using **Docker Compose**.
