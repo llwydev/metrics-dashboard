@@ -49,10 +49,22 @@ docker-compose down
 
 ```
 metrics-dashboard/
-├── app/                # Project Code
-├── docker-compose.yml  # Docker Compose Configuration
-├── prometheus.yml      # Prometheus Configuration
-└── README.md           # Project Documentation
+├── app/
+│   ├── __init__.py
+│   ├── metrics.py
+│   ├── routes.py
+│   └── templates/
+│       └── index.html
+├── docker-compose.yml
+├── Dockerfile
+├── grafana/
+│   └── provisioning/
+│       ├── dashboards/
+│       │   └── dashboard.yml
+│       └── datasources/
+│           └── datasource.yml
+├── prometheus.yml
+└── requirements.txt
 ```
 
 ## Configuration
